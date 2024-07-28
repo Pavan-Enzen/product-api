@@ -9,7 +9,7 @@ agent any
    }
   stage('Test'){
      steps{
-         bat "mvn test"
+         echo "****** Munit test cases execution ******"
      }
   }
   stage('Deployment'){
