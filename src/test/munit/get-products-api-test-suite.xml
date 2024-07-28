@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<mule xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:munit="http://www.mulesoft.org/schema/mule/munit" xmlns:munit-tools="http://www.mulesoft.org/schema/mule/munit-tools"
+	xmlns="http://www.mulesoft.org/schema/mule/core" xmlns:doc="http://www.mulesoft.org/schema/mule/documentation"
+	xsi:schemaLocation="
+		http://www.mulesoft.org/schema/mule/core http://www.mulesoft.org/schema/mule/core/current/mule.xsd
+		http://www.mulesoft.org/schema/mule/munit http://www.mulesoft.org/schema/mule/munit/current/mule-munit.xsd
+		http://www.mulesoft.org/schema/mule/munit-tools  http://www.mulesoft.org/schema/mule/munit-tools/current/mule-munit-tools.xsd">
+	<munit:config name="get-products-api-test-suite.xml" />
+	<munit:test name="get-products-api-test-suite-get:\products:product-api-configTest" doc:id="6577f01f-0f34-4b1e-8ec5-b59bc7e8cb44" description="Test">
+		<munit:execution >
+			<flow-ref doc:name="Flow-ref to get:\products:product-api-config" doc:id="43fa0316-ad65-4887-9746-31fe70de4538" name="get:\products:product-api-config"/>
+		</munit:execution>
+	</munit:test>
+
+
+</mule>
