@@ -11,7 +11,7 @@ http://www.mulesoft.org/schema/mule/ee/core http://www.mulesoft.org/schema/mule/
 output application/json
 ---
 {
-  productID: "123456",
+  productID: "123-456",
   productName: "Azure AD",
   productProvider: "Microsoft",
   productdescription: "Azure Active Directoory"
